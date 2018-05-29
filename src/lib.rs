@@ -1224,22 +1224,22 @@ macro_rules! impl_read_bench {
     )
 }
 
-impl_read_bench!(read_leb128_ref_u16_dep_graph, Usize, read_leb128_ref_u16, DEP_GRAPH);
+//impl_read_bench!(read_leb128_ref_u16_dep_graph, Usize, read_leb128_ref_u16, DEP_GRAPH);
 impl_read_bench!(read_leb128_ref_u32_dep_graph, Usize, read_leb128_ref_u32, DEP_GRAPH);
-impl_read_bench!(read_leb128_ref_u64_dep_graph, Usize, read_leb128_ref_u64, DEP_GRAPH);
-impl_read_bench!(read_leb128_ref_u128_dep_graph, Usize, read_leb128_ref_u128, DEP_GRAPH);
+//impl_read_bench!(read_leb128_ref_u64_dep_graph, Usize, read_leb128_ref_u64, DEP_GRAPH);
+//impl_read_bench!(read_leb128_ref_u128_dep_graph, Usize, read_leb128_ref_u128, DEP_GRAPH);
 impl_read_bench!(read_leb128_ref_usize_dep_graph, Usize, read_leb128_ref_usize, DEP_GRAPH);
 
-impl_read_bench!(read_leb128_ref_u16_metadata, U16, read_leb128_ref_u16, METADATA);
+//impl_read_bench!(read_leb128_ref_u16_metadata, U16, read_leb128_ref_u16, METADATA);
 impl_read_bench!(read_leb128_ref_u32_metadata, U32, read_leb128_ref_u32, METADATA);
-impl_read_bench!(read_leb128_ref_u64_metadata, U64, read_leb128_ref_u64, METADATA);
-impl_read_bench!(read_leb128_ref_u128_metadata, U128, read_leb128_ref_u128, METADATA);
+//impl_read_bench!(read_leb128_ref_u64_metadata, U64, read_leb128_ref_u64, METADATA);
+//impl_read_bench!(read_leb128_ref_u128_metadata, U128, read_leb128_ref_u128, METADATA);
 impl_read_bench!(read_leb128_ref_usize_metadata, Usize, read_leb128_ref_usize, METADATA);
 
-impl_read_bench!(read_leb128_ref_u16_query_cache, U16, read_leb128_ref_u16, QUERY_CACHE);
+//impl_read_bench!(read_leb128_ref_u16_query_cache, U16, read_leb128_ref_u16, QUERY_CACHE);
 impl_read_bench!(read_leb128_ref_u32_query_cache, U32, read_leb128_ref_u32, QUERY_CACHE);
-impl_read_bench!(read_leb128_ref_u64_query_cache, U64, read_leb128_ref_u64, QUERY_CACHE);
-impl_read_bench!(read_leb128_ref_u128_query_cache, U128, read_leb128_ref_u128, QUERY_CACHE);
+//impl_read_bench!(read_leb128_ref_u64_query_cache, U64, read_leb128_ref_u64, QUERY_CACHE);
+//impl_read_bench!(read_leb128_ref_u128_query_cache, U128, read_leb128_ref_u128, QUERY_CACHE);
 impl_read_bench!(read_leb128_ref_usize_query_cache, Usize, read_leb128_ref_usize, QUERY_CACHE);
 
 
@@ -1267,22 +1267,22 @@ impl_read_bench!(read_leb128_ref_usize_query_cache, Usize, read_leb128_ref_usize
 
 
 
-impl_read_bench!(read_leb128_fixed2_u16_dep_graph, Usize, read_leb128_fixed2_u16, DEP_GRAPH);
+//impl_read_bench!(read_leb128_fixed2_u16_dep_graph, Usize, read_leb128_fixed2_u16, DEP_GRAPH);
 impl_read_bench!(read_leb128_fixed2_u32_dep_graph, Usize, read_leb128_fixed2_u32, DEP_GRAPH);
-impl_read_bench!(read_leb128_fixed2_u64_dep_graph, Usize, read_leb128_fixed2_u64, DEP_GRAPH);
-impl_read_bench!(read_leb128_fixed2_u128_dep_graph, Usize, read_leb128_fixed2_u128, DEP_GRAPH);
+//impl_read_bench!(read_leb128_fixed2_u64_dep_graph, Usize, read_leb128_fixed2_u64, DEP_GRAPH);
+//impl_read_bench!(read_leb128_fixed2_u128_dep_graph, Usize, read_leb128_fixed2_u128, DEP_GRAPH);
 impl_read_bench!(read_leb128_fixed2_usize_dep_graph, Usize, read_leb128_fixed2_usize, DEP_GRAPH);
 
-impl_read_bench!(read_leb128_fixed2_u16_metadata, U16, read_leb128_fixed2_u16, METADATA);
+//impl_read_bench!(read_leb128_fixed2_u16_metadata, U16, read_leb128_fixed2_u16, METADATA);
 impl_read_bench!(read_leb128_fixed2_u32_metadata, U32, read_leb128_fixed2_u32, METADATA);
-impl_read_bench!(read_leb128_fixed2_u64_metadata, U64, read_leb128_fixed2_u64, METADATA);
-impl_read_bench!(read_leb128_fixed2_u128_metadata, U128, read_leb128_fixed2_u128, METADATA);
+//impl_read_bench!(read_leb128_fixed2_u64_metadata, U64, read_leb128_fixed2_u64, METADATA);
+//impl_read_bench!(read_leb128_fixed2_u128_metadata, U128, read_leb128_fixed2_u128, METADATA);
 impl_read_bench!(read_leb128_fixed2_usize_metadata, Usize, read_leb128_fixed2_usize, METADATA);
 
-impl_read_bench!(read_leb128_fixed2_u16_query_cache, U16, read_leb128_fixed2_u16, QUERY_CACHE);
+//impl_read_bench!(read_leb128_fixed2_u16_query_cache, U16, read_leb128_fixed2_u16, QUERY_CACHE);
 impl_read_bench!(read_leb128_fixed2_u32_query_cache, U32, read_leb128_fixed2_u32, QUERY_CACHE);
-impl_read_bench!(read_leb128_fixed2_u64_query_cache, U64, read_leb128_fixed2_u64, QUERY_CACHE);
-impl_read_bench!(read_leb128_fixed2_u128_query_cache, U128, read_leb128_fixed2_u128, QUERY_CACHE);
+//impl_read_bench!(read_leb128_fixed2_u64_query_cache, U64, read_leb128_fixed2_u64, QUERY_CACHE);
+//impl_read_bench!(read_leb128_fixed2_u128_query_cache, U128, read_leb128_fixed2_u128, QUERY_CACHE);
 impl_read_bench!(read_leb128_fixed2_usize_query_cache, Usize, read_leb128_fixed2_usize, QUERY_CACHE);
 
 
@@ -1357,6 +1357,8 @@ impl_read_bench!(read_leb128_fixed2_usize_query_cache, Usize, read_leb128_fixed2
 unsafe fn read_unsigned_leb128_simd_32(data: &[u8], start_position: usize) -> (u32, usize) {
     use std::arch::x86_64::*;
 
+    assert!(is_x86_feature_detected!("bmi2"));
+
     const PEXT_MASK: &[u64; 5] = &[
         0b0111_1111,
         0b0111_11110111_1111,
@@ -1385,6 +1387,8 @@ impl_read_bench!(read_leb128_simd_u32_metadata, U32, read_unsigned_leb128_simd_3
 #[target_feature(enable = "bmi2")]
 unsafe fn read_unsigned_leb128_simd_usize(data: &[u8], start_position: usize) -> (usize, usize) {
     use std::arch::x86_64::*;
+
+    assert!(is_x86_feature_detected!("bmi2"));
 
     const PEXT_MASK: &[u64; 5] = &[
         0b0111_1111,
@@ -1416,6 +1420,8 @@ impl_read_bench!(read_leb128_simd_usize_metadata, Usize, read_unsigned_leb128_si
 #[target_feature(enable = "bmi2")]
 unsafe fn read_unsigned_leb128_mmx_32(data: &[u8], start_position: usize) -> (u32, usize) {
     use std::arch::x86_64::*;
+
+    assert!(is_x86_feature_detected!("bmi2"));
 
     const PEXT_MASK: &[u64; 5] = &[
         0b0111_1111,
